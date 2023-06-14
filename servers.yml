@@ -16,11 +16,11 @@ Parameters:
             - t3.micro
             - t3.medium
     KeyPair:
-        Type: AWS::SSM::Parameter::Value<AWS::EC2::KeyPair::KeyName>
-        Description: "AWS key pair in us-east-1, stored in SSM Parameter Store"
+        Type: String
+        Description: "AWS key pair in us-east-1"
     ImageId:
-        Type: AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>
-        Description: "AWS AMI in us-east-1, stored in SSM Parameter Store"
+        Type: String
+        Description: "AWS AMI in us-east-1"
 
 Resources:
     WebServerSecurityGroup:
