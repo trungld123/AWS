@@ -1,0 +1,22 @@
+[
+	{
+		"ParameterKey": "EnvironmentName",
+		"ParameterValue": "Trungld666-project"
+	},
+	{
+		"ParameterKey": "AdministratorManagedPolicy",
+		"ParameterValue": "arn:aws:iam::aws:policy/AdministratorAccess"
+	},
+	{
+		"ParameterKey": "InstanceType",
+		"ParameterValue": "t2.micro"
+	},
+	{
+		"ParameterKey": "KeyPair",
+		"ParameterValue": "Heymen"
+	},
+	{
+		"ParameterKey": "AMItoUse",
+		"ParameterValue": "ami-022e1a32d3f742bd8"
+	}
+]
