@@ -17,6 +17,6 @@
 	},
 	{
 		"ParameterKey": "ImageId",
-		"ParameterValue": "ubuntu-18-lts"
+		"ParameterValue": "ami-022e1a32d3f742bd8"
 	}
 ]

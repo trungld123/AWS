@@ -16,7 +16,7 @@ Parameters:
     KeyPair:
         Type: String
         Description: "AWS key pair for bastion host in us-east-1"
-    AMItoUse:
+    ImageId:
         Type: String
         Description: "AWS AMI in us-east-1. I will use the Amazon Linux 2023 distribution."
 Resources:
@@ -143,7 +143,7 @@ Resources:
         Type: AWS::EC2::LaunchTemplate
         Properties:
             LaunchTemplateData:
-                ImageId: !Ref AMItoUse
+                ImageId: !Ref ImageId
                 KeyName: !Ref KeyPair
                 InstanceType: !Ref InstanceType
                 NetworkInterfaces:

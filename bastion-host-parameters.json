@@ -16,7 +16,7 @@
 		"ParameterValue": "Heymen"
 	},
 	{
-		"ParameterKey": "AMItoUse",
+		"ParameterKey": "ImageId",
 		"ParameterValue": "ami-022e1a32d3f742bd8"
 	}
 ]
